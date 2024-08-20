@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
     ];
   
     const backgrounds = [
-      '/welcome-images/laptophomeimage1.jpg',
-      '/welcome-images/airpodsimage.jpg',
-      '/welcome-images/homeimage2.jpg',
+      'welcome-images/laptophomeimage1.jpg',
+      'welcome-images/airpodsimage.jpg',
+      'welcome-images/homeimage2.jpg',
     ];
   
   
