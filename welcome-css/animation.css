@@ -57,6 +57,10 @@
   z-index: 9999;
 }
 
+.home {
+  visibility: hidden; /* Hidden until images are loaded */
+}
+
 .spinner-content {
   display: flex;
   justify-content: center;

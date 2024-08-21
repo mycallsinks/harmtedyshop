@@ -348,12 +348,14 @@ section .home_contents {
   background-color: rgba(0, 0, 0, 0);
   color: #fafafa;
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding: 3px 0 !important
 }
 .product_holder .buy_directly {
   font-size: 0.7rem;
   background-color: rgba(0, 0, 0, 0);
   color: #fafafa;
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding: 3px 0 !important
 }
 
 .modal-title {
