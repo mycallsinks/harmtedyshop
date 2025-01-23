@@ -64,7 +64,7 @@ document.querySelectorAll('.view_more_button').forEach(button => {
       const buyButton = document.getElementById('buy_button');
       buyButton.onclick = function () {
           const productDetailsText = `I want this item\n\nModel: ${productModel}\n` + Array.from(productDetails.querySelectorAll('p')).map(p => p.textContent).join('\n');
-          const whatsappUrl = `https://wa.me/260960108064?text=${encodeURIComponent(productDetailsText)}`;
+          const whatsappUrl = `https://wa.me/260974286888?text=${encodeURIComponent(productDetailsText)}`;
           window.open(whatsappUrl, '_blank');
       };
   });
@@ -80,7 +80,7 @@ document.querySelectorAll('#buy_directly').forEach(button => {
       const productDetails = productDesc.querySelector('.product_properties').innerText;
 
       const productDetailsText = `I want this item\n\nModel: ${productModel}\n${productDetails}`;
-      const whatsappUrl = `https://wa.me/260960108064?text=${encodeURIComponent(productDetailsText)}`;
+      const whatsappUrl = `https://wa.me/260974286888?text=${encodeURIComponent(productDetailsText)}`;
       window.open(whatsappUrl, '_blank');
   });
 });
